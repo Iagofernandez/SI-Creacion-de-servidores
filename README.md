@@ -43,7 +43,9 @@ Configuración de sshd_config para la máxima seguridad
 Cambiar el puerto por defecto del servidor SSH
 Por defecto los servidores SSH utilizan el puerto 22 para las conexiones. Es recomendable cambiar este número de puerto, para evitar que bots o cibercriminales puedan intentar iniciar sesión, aunque por sí solo esto no proporciona seguridad, sí podremos pasar desapercibidos a los escaneos masivos desde Internet. Si por ejemplo queremos usar el puerto 22445 debemos poner en el fichero de configuración lo siguiente:
 
-Port 22445
+En la parte que pone port 22 se cambia a port 8599 
+
+
 
 
 
