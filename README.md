@@ -45,18 +45,6 @@ Por defecto los servidores SSH utilizan el puerto 22 para las conexiones. Es rec
 
 Port 22445
 
-Bloquear el acceso root en las conexiones remotas
-PermitRootLogin no
 
-Configuraciones de seguridad adicionales
-
-Existen otras configuraciones recomendadas para evitar las conexiones no deseadas a nuestro servidor SSH. Estas conexiones son:
-
-LoginGraceTime: Estableceremos el tiempo necesario para introducir la contraseña, evitando que el atacante tenga que «pensar mucho».
-MaxAuthTries: Número de intentos permitidos al introducir la contraseña antes de desconectarnos.
-MaxStartups: Número de logins simultáneos desde una IP, para evitar que se pueda utilizar la fuerza bruta con varias sesiones a la vez.
-AllowUsers: Es crear una lista blanca de usuario. Este parámetro nos permite configurar los usuarios que podrán conectarse. Una medida muy restrictiva pero a la vez muy segura ya que bloqueará todas las conexiones de los usuarios que no estén en el listado. Los usuarios que tengamos aquí podrán conectarse, y el resto no.
-DenyUsers: Parecido al anterior, pero ahora creamos una lista negra. Los usuarios que tengamos aquí no podrán conectarse, y el resto sí.
-AllowGroups/DenyUsers: Exactamente igual a lo anterior, pero en lugar de crear una lista blanca/negra de usuarios, es de grupos de usuarios.
 
 
