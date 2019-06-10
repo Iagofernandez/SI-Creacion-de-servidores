@@ -45,6 +45,10 @@ Por defecto los servidores SSH utilizan el puerto 22 para las conexiones. Es rec
 
 En la parte que pone port 22 se cambia a port 8599 
 
+Este cambio se deber realizar en los dos documentos de los comandos nano /etc/ssh/ssh_config y nano /etc/ssh/sshd_config
+
+
+
 
 
 
